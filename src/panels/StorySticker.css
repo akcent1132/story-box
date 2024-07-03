@@ -1,0 +1,57 @@
+
+.bg-box {
+ max-width: 350px;
+}
+
+.content-wrap {
+  word-break: break-word;
+  white-space: normal;
+  margin: 12px auto;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.content-background {
+  box-shadow: inset 0px 5px 20px -20px #000, inset 0px -5px 20px -20px #000;
+  padding: 6px 18px;
+  overflow: hidden;
+  margin: 0px;
+}
+.content-body {
+  padding: 24px;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: inherit;
+  border: 2px solid rgb(118, 255, 3);
+}
+
+.content-info {
+  display: block;
+  min-height: 64px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.content-title {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 4px;
+  white-space: nowrap;
+  color: rgb(118, 255, 3);
+}
+.content-title-calc {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 4px;
+  white-space: nowrap;
+  color: rgb(118, 255, 3);
+}
+.content-separator {
+  margin-top: 10px;
+  border-top: 2px solid rgb(118, 255, 3, 0.4);
+}
